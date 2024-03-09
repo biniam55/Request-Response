@@ -13,7 +13,7 @@ function Signup({ switchView }) {
     console.log(data);
     try {
       const response = await axios.post(
-        "http://localhost:5500/api/users/register",
+        "https://request-response.vercel.app/api/users/register",
         data,
         {
           headers: {

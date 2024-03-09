@@ -10,6 +10,7 @@ const authmidleware = require('./midleware/authmidleware');
 app.use(express.urlencoded({ extended: true }));
 const cors = require('cors');
 app.use(cors())
+require('dotenv').config();
 
 
 async function start () {
