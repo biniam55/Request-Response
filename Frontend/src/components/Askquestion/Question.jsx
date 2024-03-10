@@ -25,7 +25,7 @@ function Question() {
     }
     try {
       const response = await axios.post(
-        "https://request-response.vercel.app/api/questions/onequestion",
+        "https://request-response-server.vercel.app/api/questions/onequestion",
         {
           title,
           description:plainTextDescription,

@@ -12,7 +12,7 @@ function Home() {
     if (!token) {
       return;
     }
-    fetch("https://request-response.vercel.app/api/questions/allquestion", {
+    fetch("https://request-response-server.vercel.app/api/questions/allquestion", {
       headers: {
         Authorization: `Bearer ${token}`,
       },

@@ -21,7 +21,7 @@ function Answer() {
     }
 
     fetch(
-      `https://request-response.vercel.app/api/answers/oneanswer/${question.questionid}`,
+      `https://request-response-server.vercel.app/api/answers/oneanswer/${question.questionid}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -54,7 +54,7 @@ function Answer() {
     try {
       // eslint-disable-next-line no-unused-vars
       const response = await axios.post(
-        "https://request-response.vercel.app/api/answers/oneanswer",
+        "https://request-response-server.vercel.app/api/answers/oneanswer",
         {
           questionid: question.questionid,
           answer: plainTextanswer,
