@@ -148,34 +148,42 @@ input::placeholder {
 }
 
 @media (min-width: 768px) {
+
+
+
+    
   .eye-icon {
-    right: 100px;
-    top: 20px;
+  
+          right: 100px;
+          top: 20px;
+  
+  
+      }
+  
+  .home{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  gap: 40px;
   }
 
-  .home {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 100px;
-    gap: 40px;
-  }
-
-  .firstlast {
-    display: flex;
-    /* align-items: center;
-                 */
-    margin-left: 5px;
-    /* text-align: center; */
-    flex-shrink: 0;
-    justify-content: center;
-
+      .firstlast {
+          display: flex;
+          /* align-items: center;
+           */
+           margin-left: 5px;
+           /* text-align: center; */
+           flex-shrink: 0;
+      justify-content: center;
+      
     gap: 5px;
-  }
-  .firstlast input {
-    width: 12vw;
-  }
+      }
+               .firstlast input{
+                  width: 12vw;
+               }
 }
+
 
 /* styles.css */
 .emailInput {
@@ -193,24 +201,26 @@ input::placeholder {
   /* When the input is focused */
 }
 
-@media (min-width: 1200px) {
-  input {
-    width: 350px;
+@media (min-width:1200px){
+  input{
+      width: 350px;
   }
-  .eye-icon {
-    right: 50px;
-    top: 20px;
-  }
+         .eye-icon {
+             right: 50px;
+             top: 20px;
+  
+  
+         }
 
-  .firstlast input {
-    width: 155px;
+  .firstlast input{
+      width: 155px;
   }
-  .loginbutton,
-  .signupbutton,
-  .resetbutton {
-    width: 370px;
-  }
+      .loginbutton,
+      .signupbutton,
+      .resetbutton{
+          width: 370px;
+      }
 }
-.success {
+.success{
   color: rgb(182, 23, 23);
 }

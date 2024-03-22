@@ -28,3 +28,33 @@
     list-style: none;
 
 }
+
+
+@media(max-width: 993px) {
+    .menuicon{
+        display: block;
+        color: #FE8402;
+        font-size: 20px;
+        margin-right: 50px;
+    }
+.menu-hidden {
+            display: none !important;
+        }
+        
+        .menu-visible{
+                     flex-direction: column;
+                     position: absolute; 
+                     top: 80px;
+                     left: 0;
+                     width: 100%;
+                     background-color: #fe8402;
+                     transition: transform 0.8s ease-in-out;
+                     
+                 }
+                 .headsigninbutton{
+                    margin-bottom: 30px;
+                 }
+                .headlinks ul li a{
+                    color: white;
+                }          
+}
